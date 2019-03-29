@@ -2,7 +2,6 @@
 
 use mrcrmn\Http2Push\Http2Push;
 use mrcrmn\Http2Push\Http2PushServiceProvider;
-use mrcrmn\Http2Push\Tests\Concerns\RendersBlade;
 
 class Http2PushTest extends Orchestra\Testbench\TestCase
 {
