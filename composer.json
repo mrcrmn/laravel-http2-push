@@ -1,7 +1,7 @@
 {
     "name": "mrcrmn/laravel-http2-push",
-    "description": ":description",
-    "license": "license",
+    "description": "Easily utilise the HTTP/2 push Feature in your Laravel App",
+    "license": "MIT",
     "authors": [
         {
             "name": "Marco Reimann",
