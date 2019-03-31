@@ -13,6 +13,10 @@ Via Composer
 $ composer require mrcrmn/laravel-http2-push
 ```
 
+## Documentation
+
+For the docs visit: https://mrcrmn.netlify.com/packages/laravel-http2-push/
+
 ## Testing
 
 ``` bash
