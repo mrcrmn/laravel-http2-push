@@ -12,7 +12,7 @@ class Http2Push
     *
     * @var \Illuminate\Support\Collection
     */
-    protected $resource;
+    protected $resources;
 
     /**
      * Constructs the object and adds the first resources.
