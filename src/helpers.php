@@ -5,4 +5,3 @@ if (! function_exists('preload')) {
         return resolve('http2push')->add($resource, $silent);
     }
 }
-

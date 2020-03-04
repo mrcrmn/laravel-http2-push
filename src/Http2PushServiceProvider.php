@@ -15,11 +15,6 @@ class Http2PushServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'mrcrmn');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'mrcrmn');
-        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadRoutesFrom(__DIR__.'/routes.php');
-
         // Registers the Blade directive.
         Blade::directive('preload', function($arguments) {
             return "<?php echo preload($arguments, false); ?>";
@@ -70,23 +65,5 @@ class Http2PushServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/http2push.php' => config_path('http2push.php'),
         ], 'http2push.config');
-
-        // Publishing the views.
-        /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/mrcrmn'),
-        ], 'http2push.views');*/
-
-        // Publishing assets.
-        /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/mrcrmn'),
-        ], 'http2push.views');*/
-
-        // Publishing the translation files.
-        /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/mrcrmn'),
-        ], 'http2push.views');*/
-
-        // Registering package commands.
-        // $this->commands([]);
     }
 }

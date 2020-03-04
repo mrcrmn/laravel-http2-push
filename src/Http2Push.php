@@ -48,6 +48,11 @@ class Http2Push
         }
     }
 
+    /**
+     * Checks if the collection holds any resources.
+     * 
+     * @return bool
+     */
     public function any()
     {
         return $this->resources->isNotEmpty();
@@ -72,6 +77,11 @@ class Http2Push
         return 'image';
     }
 
+    /**
+     * Generates the value for the link header which is applied to the response.
+     * 
+     * @return string
+     */
     public function generateHeader()
     {
         $segments = $this->resources->unique()->map(function($resource) {
