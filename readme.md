@@ -15,7 +15,7 @@ $ composer require mrcrmn/laravel-http2-push
 
 ## Documentation
 
-For the docs visit: https://mrcrmn.com/packages/laravel-http2-push/
+For the docs visit: https://mrcrmn.dev/packages/laravel-http2-push/
 
 ## Testing
 
@@ -33,7 +33,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [Marco Reimann][https://mrcrmn.dev]
+- [Marco Reimann](https://mrcrmn.dev)
 
 ## License
 
