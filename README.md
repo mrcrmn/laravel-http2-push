@@ -3,7 +3,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+This package allows you to easily utilize the HTTP/2 push feature in your Laravel Apps.
 
 ## Installation
 
