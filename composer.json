@@ -1,0 +1,45 @@
+{
+    "name": "mrcrmn/laravel-http2-push",
+    "description": "Easily utilise the HTTP/2 push Feature in your Laravel App",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Reimann",
+            "email": "marcoreimann@outlook.de",
+            "homepage": "https://mrcrmn.com"
+        }
+    ],
+    "homepage": "https://github.com/mrcrmn/http2push",
+    "keywords": ["Laravel", "Http2Push"],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.8|^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0|^9.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "^3.8|^4|^5",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrcrmn\\Http2Push\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mrcrmn\\Http2Push\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mrcrmn\\Http2Push\\Http2PushServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
