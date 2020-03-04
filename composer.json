@@ -6,13 +6,13 @@
         {
             "name": "Marco Reimann",
             "email": "marcoreimann@outlook.de",
-            "homepage": "https://mrcrmn.netfliy.com"
+            "homepage": "https://mrcrmn.com"
         }
     ],
     "homepage": "https://github.com/mrcrmn/http2push",
     "keywords": ["Laravel", "Http2Push"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "^5.8|^6.0|^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
